@@ -15,7 +15,7 @@
     videoElement.src = audioElement.querySelector('source').src;
     videoElement.controls = true;
     videoElement.autoplay = true;
-    videoElement.width = '100%';
+    videoElement.style.width = '100%'
     videoElement.name = 'media';
 
     // Adiciona a tag <source> dentro da tag <video>
